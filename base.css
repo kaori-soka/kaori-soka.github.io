@@ -1,0 +1,105 @@
+@charset "UTF-8";
+a {
+    text-decoration: none;
+    width:180px; margin:0 auto;
+	text-align:left;
+}
+*{
+    margin:0;padding:0;
+    line-height:1.5;
+    color: darkblue;
+    
+}
+
+    div{
+        width:796px; margin:0 auto;
+        text-align:left;
+        background-repeat:repeat-y;
+        background-color:#ffffff;
+    }
+    ul#menu {
+    height:100px;background-color:rgb(80, 243, 255); font-weight:bold;
+    }
+    li#menu01,li#menu02,li#menu03,li#menu04{
+    float:left;
+    display:inline;
+    list-style-type: style type none;
+    }
+    li#menu01{
+        width:400px;height:42px;
+    }
+    li#menu02{
+        width:280x;height:42px;
+    }
+    li#menu03{
+        width:280px;height:42px;
+    }
+    li#menu04{
+        width:400px;height:42px;
+    }
+    ul#menu a {
+        display:block;
+        font-size: 30px;
+        height: 60px;padding-top: 40px; text-align:right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    div#submenu{
+        font-size:30px;
+        width:250px;
+        margin:50px 50px 50px 30px;
+        display: inline;
+        float:left;
+    }
+    div#submenu_header {
+        font-size: 30px;
+        height:30px; padding:5px 5px 5px 10px;
+        background-color:#a6bceb;
+        font-size:100%; font-weight: 100; text-align:left;
+    }
+    ul#submenu_body {
+        font-size: 30px;
+        padding-bottom:4px;
+        background-color:#96f59e;
+    }
+    ul#submenu_body li {
+        font-size:30px;
+        font-size:90%;
+        list-style-type:none;
+        display: inline;
+    }
+    ul#submenu_body li a {
+        font-size: 30px;
+        display:block;
+        margin:0px 4px 0px 4px;
+        padding:4px 0px 4px 0px;
+        background-color:#96f59e;
+        text-decoration:none;
+    }
+
+    div#content {
+        font-size: 30px;
+        width:960px; margin:50px 20px 10px 50px;
+        float:right;
+    }
+    div#type {
+        font-size: 40px;
+        width:690px; margin-right:50px; padding-top:100px;
+        float:left;
+    }
+    h1{text-align: center;
+    background-color: rgb(208, 171, 243);
+    }
+    h2{font-size:100%; margin-bottom:10px; padding-left:25px;}
+    
+
+footer {
+	height:42px; text-align:center;
+	clear:both;
+	background-color:#cccccc;
+}
+address{
+    font-style:normal;
+	font-size:small;
+	padding:5px 0px 5px 0px;
+}
